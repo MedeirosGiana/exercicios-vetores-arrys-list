@@ -34,16 +34,17 @@ public class AlturasProgram {
             sum += vect[i].getHeight();
         }
         double avg = sum/ vect.length;
-        int nmenores =0;
+        int count =0;
 
         for (int i =0; i < vect.length; i++){
             if (vect[i].getAge() < 16){
-               nmenores = nmenores+1;
+                count = count+1;
             }
         }
-        double porcentualMenores = ((double) nmenores/n)*100;
+        double percent = count * 100.0/n;
+        System.out.println();
         System.out.printf("Altura média = %.2f%n", avg);
-        System.out.printf("Pessoas com menos de 16 anos: %.1f%%\n", porcentualMenores);
+        System.out.printf("Pessoas com menos de 16 anos: %.1f%%\n", percent);
 
         for (int i=0; i < n;i++){
             if (vect[i].getAge() < 16){

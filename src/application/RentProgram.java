@@ -7,6 +7,7 @@ public class RentProgram {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Rent[] vect= new Rent[10];
+        Rent rent = new Rent();
 
         System.out.println("How many rooms will be rented? ");
         int n = sc.nextInt();
@@ -16,12 +17,12 @@ public class RentProgram {
             System.out.println("Rent # " + i + ":");
             System.out.print("Name:");
             sc.nextLine();
-            String name = sc.nextLine();
+            rent.setName(sc.nextLine());
             System.out.print("Email:");
-            String email = sc.nextLine();
+            rent.setEmail(sc.nextLine());
             System.out.print("Room:");
             int room = sc.nextInt();
-            vect[room] = new Rent(name, email);
+            vect[room] = new Rent(rent.getName(), rent.getEmail());
         }
         System.out.println();
         System.out.println("Busy rooms:");
