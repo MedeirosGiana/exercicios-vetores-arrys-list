@@ -1,6 +1,6 @@
 package application;
 
-import vetores.Alturas;
+import vetores.entities.Alturas;
 
 import java.util.Locale;
 import java.util.Scanner;

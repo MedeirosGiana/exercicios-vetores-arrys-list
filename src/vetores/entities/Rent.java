@@ -1,4 +1,4 @@
-package vetores;
+package vetores.entities;
 
 public class Rent {
     private  String name;

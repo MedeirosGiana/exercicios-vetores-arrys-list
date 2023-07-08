@@ -1,6 +1,6 @@
 package application;
 
-import vetores.Rent;
+import vetores.entities.Rent;
 import java.util.Scanner;
 
 public class RentProgram {
@@ -31,6 +31,8 @@ public class RentProgram {
                System.out.println(i + " , "+ vect[i]);
            }
         }
+
+
         sc.close();
     }
 }

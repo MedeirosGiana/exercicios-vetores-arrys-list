@@ -1,4 +1,4 @@
-package vetores;
+package vetores.entities;
 
 public class Alturas {
     private String name;
