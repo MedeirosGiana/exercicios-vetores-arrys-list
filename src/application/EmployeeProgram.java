@@ -1,6 +1,6 @@
 package application;
 
-import listas.entities.Employee;
+import listas.Employee;
 
 import java.util.ArrayList;
 import java.util.List;

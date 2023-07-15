@@ -1,4 +1,4 @@
-package listas.entities;
+package listas;
 
 public class Employee {
     private Integer id;
@@ -42,7 +42,7 @@ public class Employee {
     public String toString() {
         return  id + ", "
                 + name + ", "
-                + String.format("%.2f%n",salary) ;
+                + String.format("%.2f%n", salary) ;
     }
 
     public void  increaseSalary(double percentage){

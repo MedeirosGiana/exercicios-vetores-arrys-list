@@ -1,6 +1,6 @@
 package application;
 
-import vetores.entities.Rent;
+import vetores.Rent;
 import java.util.Scanner;
 
 public class RentProgram {
